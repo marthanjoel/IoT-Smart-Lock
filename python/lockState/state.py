@@ -1,12 +1,13 @@
 #locked = 0, unlocked = 1
 state = 0
 
-def setState(newState) {
-    state = newState
-}
+def lockState():
+    state = 0
 
-def getState() {
+def openState():
+    state = 1
+
+def getState():
     return state
-}
 
 
